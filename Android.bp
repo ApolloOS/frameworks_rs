@@ -11,7 +11,6 @@ cc_library_headers {
 cc_defaults {
     name: "rs_defaults",
     cflags: [
-        "-Werror",
         "-Wall",
         "-Wextra",
         "-Wno-deprecated-declarations",
